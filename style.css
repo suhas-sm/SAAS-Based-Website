@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+@media only screen and (max-width: 768px) {
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+    }
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1.5%;
+    background-color: rgb(112,48,204);
+}
+
+nav div img{
+    width: 100px;
+}
+@media only screen and (max-width: 768px) {
+    nav ul{
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 1em;
+}
+
+nav ul li{
+    padding: 10px 20px;
+    color: #fff;
+}
+
+nav ul button{
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #1BBCEF;
+}
+
+nav ul li:first-child{
+    border-bottom: 2px solid rgb(206, 107, 222);
+    color: rgb(27, 188, 239);
+}
+
+@media only screen and (max-width: 768px) {
+    .main{
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        height: fit-content;
+        flex-wrap: wrap;
+       
+        text-align: center;
+    }
+    .main section[aria-label="content"]{
+        width: 100%;
+    }
+    .main .img{
+        order: -4;
+    }
+
+}
+.main{
+    background-color: #7030CC;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 7%;
+}
+
+ .main section{
+    width: 50%;
+}
+
+.main section h1{
+    color: #fff;
+    font-size: 64px;
+}
+
+.main section article{
+    color: #fff;
+    font-size: 1.12em;
+    margin-top: 5%;
+}
+
+section[aria-label="content"]{
+    width: 40%;
+}
+
+/* Section 2 */
+@media only screen and (max-width: 768px) {
+    .mid{
+        flex-direction: column;
+    }
+    aside[aria-label="content"]{
+        width: 100%;
+    }
+}
+
+.mid{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+aside h2{
+    font-size: 25px;
+    width: 300px;
+}
+
+aside{
+    width: 50%;
+}
+
+aside ul{
+    list-style-type: none;
+   
+}
+
+aside ul li{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+aside ul li::before{
+    content: '\21E8';
+    font-size: 25px;
+    color: #ff4500;
+   
+    padding-right: 8px;
+}
+
+aside ul article{
+    margin-left: 10%;
+}
+
+aside[aria-label="content"]{
+    width: 300px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .card-section{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .cards{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .card{
+        margin-top: 80px;
+        width: 200px;
+    }
+    .card:first-child .img + div{
+        height: fit-content;
+        width: fit-content;
+    }
+    .card:first-child{
+        position: relative;
+        height: 190px;
+    }
+}
+.card-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8%;
+}
+
+.card-section h2{
+    width: 300px;
+    text-align: center;
+    padding: 3.5%;
+}
+
+.cards{
+    display: flex;
+}
+
+
+
+.card .img{
+    width:75px;
+    height: 75px;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+
+.card{
+    width: 200px;
+    padding: 2%;
+    border-radius: 30px;
+    box-shadow: 0px 5px 30px #000;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card div p{
+    font-size: .9em;
+    margin-top: 5%;
+}
+
+.card:first-child .img + div{
+    background-color: rgb(112,48,204);
+    color: #fff;
+    position: absolute;
+    bottom: 0%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10% 0;
+}
+
+.card:first-child{
+    position: relative;
+}
