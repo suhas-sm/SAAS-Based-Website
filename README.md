@@ -1,4 +1,4 @@
-# SAAS-Company-Website [![Template Project](https://img.shields.io/badge/Technologies%20-HTML%2FCSS-brightgreen)](http://www.gnu.org/licenses/agpl-3.0)
+# SAAS-Company-Website
 
 This is basically a fully blown website project made in HTML/CSS with 4 to 5 web pages for an imaginary SAAS based company on the internet.
 Hope you like my project !! it works good in laptop screen and mobile.
