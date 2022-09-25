@@ -3,12 +3,12 @@
 This is basically a fully blown website project made in HTML/CSS with 4 to 5 web pages for an imaginary SAAS based company on the internet.
 Hope you like my project !! it works good in laptop screen and mobile.
 
-## 🛠 Technologies Used
+## Technologies Used
   - HTML - Hyper Text Markup Language
   - CSS - Cascadeing Spread Sheet
   - CSS Flex Box
 
-## 🚩 Demo
+## Demo
 ### Laptop View
 ![page-img](./images/page_img_1.PNG)
 
@@ -28,12 +28,7 @@ Go to the project directory
 ```bash
   cd SAAS-Based-Website
 ```
-## ✍️ Author and 📞 Contact
-- [Find-coder](https://www.findcoder.io/u/suhas_sm)
-    - [![facebook](https://img.shields.io/badge/Facebook-0A66C2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/suhas.melmuri)
-    - [![instagram](https://img.shields.io/badge/Instagram-0A66C2?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_suhas_sm/)
-
-## 📝 Features
+## Features
 
 - Transition Scroll Effect
 - Modern Typical webpage design
@@ -42,16 +37,16 @@ Go to the project directory
 - Mobile Responsive
 - Amazing card design
 
-## 🤔 What i have learnt By working on this project
+## What i have learnt By working on this project
 1. I have improved my self in positioning of images in a spesific position, also using flex properties
 2. Improved in designing the project
 3. Making it responsivness in better way
 4. Got a good understanding on createing big one pager website
 
-## 😌 Honest Time to finish the project
+## Honest Time to finish the project
 
 I had took about 2 hours. This project made me understand how to make an image positioned with respect to other and also using flex properties.
 
-## 👀 Feedback
+## Feedback
 
 If you have any feedback, please reach out to us at melmurissm11@gmail.com
