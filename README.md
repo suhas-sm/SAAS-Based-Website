@@ -4,8 +4,8 @@ This is basically a fully blown website project made in HTML/CSS with 4 to 5 web
 Hope you like my project !! it works good in laptop screen and mobile.
 
 ## Technologies Used
-  - HTML - Hyper Text Markup Language
-  - CSS - Cascadeing Spread Sheet
+  - HTML
+  - CSS
   - CSS Flex Box
 
 ## Demo
